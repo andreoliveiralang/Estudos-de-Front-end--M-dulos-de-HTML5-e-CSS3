@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré Formatação</h2>
+<p>
+    A Tag "<b>code</b>" serve para colocar elementos mais facil de ler, veja o exemplo:<br>NORMAL: www.boss-talikida.com.br <br>CODE:<code>www.boss-talikida.com.br</code><!-- Formato mais usados para escrever códigos mesmo, como o nome sugere (fonte monoespaçada)-->
+</p>
+<p>
+    Por falar em código, se a caso você queira escrever um codigo e manda-lo com <b>IDENTAÇÃO</b> para a pagina, será necessário não apenas a tag "code", mas também a tag "pre" antes da tag "code"
+</p>
+<p>
+        EXEMPLO <mark style="background-color: rgb(240, 176, 176);">SEM</mark> "PRE":<code>
+        (div id="ret0" class="retangulo">
+         div "ret1" class="retangulo">div>
+        div id="ret2" class="retangulo">div>
+        div id="ret3" class="retangulo">div)
+        </code>
+</p>
+
+<p>
+    EXEMPLO <mark style="background-color: rgb(111, 224, 111);">COM</mark> "PRE":   
+    <pre>
+        <code>
+(div id="ret0" class="retangulo">
+    div "ret1" class="retangulo">div>
+div id="ret2" class="retangulo">div>
+div id="ret3" class="retangulo">div)
+        </code>
+    </pre>
+</p>
+<h2>Citações Simples</h2>
+<p>
+   É como o tio Bem disse:<q>Uma vez por mês você irá sangrar pela vagina!</q> <!-- ha, só adiciona aspas!  SIM exatamente, porém aqui o "q" da setido na frase, novamente falando sobre SÊMANTICA. O q significa "quotes" que é citações em inglês. -->
+</p>
+<h2>Citações Completas</h2>
+<p>
+        Segundo Johnni Langer em seu livro "Desvendando os Vikings":
+</p>
+ <blockquote>O objetivo principal desta coletânia é apresentar algumas sistematizações de pesquisas efetuadas na área da Escandinávia Medieval, com a intenção de levar ao grande público e aos acadêmicos algumas informações sobre temas relevantes a esse período.</blockquote cite="https://www.infolivros.org/pdfview/desvendando-os-vikings/"> 
+
+    <!-- aparece deslocada no site oque é o padrão quando queremos trazer alguma referência externa para dentro do nosso documento.--> 
+
+    <!-- E sobre a TAG "cite" ONDE MEU VS-code, nao teve sucesso em achar, não vai mudar nada visualmente, porem o professor disse que para os mecanismos de busca isso conta. --> 
+</p>
+<h2>Abreviações</h2>
+
+<p>
+    Para que as pessoas saibam oque são as abreviações que colocamos no documento. <br>Exemplo: Estamos aprendendo <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>
+</p>
+<!-- Ao envelopar o elemento com "ABBR" nós podemos escrever a definição dele, e ao passar o cursor por cima, conseguimos ler o "significado" daquela abreviação-->
+<h2>Texto Invertido</h2>
+<p>
+    <bdo dir="rtl">Frase totalmente invertida , que sinceramente não sei para que você usaria esta merda!</bdo> <!-- Sinceramente kkk, não tem porque decorar isso daqui. -->
+</p>
+</body>
+</html>
