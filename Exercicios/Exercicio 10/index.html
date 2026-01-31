@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/é-esse.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+     <h1>Usando Links Externos</h1>
+    <p>
+        Você pode acessar meu <a href="https://github.com/andreoliveiralang?tab=repositories" target="_blank" rel="noopener noreferrer"> repositório público no GitHub</a> <STRONG>"_blank" ATIVADO</STRONG> <!--Esse ("Target="_blank") é usado para abrir uma guia, ao invez de ser redirecionado na sua própria pagina --> <!-- rel vem de relationship, e ele esta setado em "noreferrer e noopener" Definições sobre estes parametros foram anotados externamente-->
+    </p>
+    <p>
+         Você pode acessar meu <a href="https://github.com/andreoliveiralang?tab=repositories" rel="noopener noreferrer"> repositório público no GitHub</a> <STRONG>"_blank" DESATIVADO</STRONG>
+    </p> 
+<h1>Usando Links Internos</h1>
+<p>
+    Para acessar a <strong>segunda</strong> pagina do meu site, <a href="pag-02.html" rel="next">clique aqui</a> 
+</p> <!-- Basicamente, você da "ctrl+espaço" e add a sua pagina, REL=next pois simboliza a proxima pagina do mesmo site.-->                                                             
+<p>
+    Para acessar a <strong>terceira</strong> pagina do meu site, <a href="pag003/pag003.html">clique aqui</a>
+</p>
+<h1>Links para dowload.</h1>
+<p>
+    <ul type="circle">
+        <li><a href="PDF/10 - Ligações em toda parte.pdf" download="Ligações em toda parte" type="aplication/pdf"> Baixar PDF</a></li> <!-- Existem parametros diferentes para cada arquivo, para pdf é este:"aplication/pdf" só serve mesmo para que quem estiver analisando o codigo veja que o arquivo se trata de pdf. novamente aqui SEMÃNTICA. -->
+    </ul>
+</p>
+<p>
+    <ul type="circle">
+        <li>
+            <a href="Imagens/é-esse.ico" download="Ico" type="image/x-icon">Baixar Icone </a>
+        </li>
+    </ul>
+</p>
+    
+</body>
+</html>
