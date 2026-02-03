@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando videos na pagina</title>
+</head>
+<body>
+    <h1>Aprendendo colocar vídeos hospedados localmente na pagina.</h1>
+   
+   <!-- <video src="midia/Azrikr-Video-ok.mkv" width="500" controls></> -->   
+        
+   <!-- Aqui poderia ser assim que funcionaria de boa, usando somente a TAG "video" para add o video,  e a TAG "width" para dimensionar -->
+
+   <!-- porém a técnica abaixo é recomendada por conter mais possibilidades de compatibilidade com o navegador dos outros -->
+
+    <video controls width="500" autoplay muted loop> <!-- o autoplay aqui só funciona com a TAG "muted" -->
+        <source src="midia/Azrikr-Video-MP4.mp4" type="video/mp4">
+        <source src="midia/Azrikr-Video-WEBM.webm" type="video/webm">
+        <source src="midia/Azrikr-Video-OGV.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador não tem suporte para reproduzir videos.</p>
+        <!-- aqui tem essa sequência com formatos diferentes pois o navegador vai tentar abrir em ordem, caso o navegador de quem esta acessando não consiga reproduzir o video, ele vai exibir esta mensagem que esta em baixo. -->
+    </video>
+
+    <!-- colocar vídeos assim nos sites consomem muitos dados, cada usuário que acessa e baixa o video, gasta banda da sua hospedagem, fazendo com que o seu site se torne algo caro para manter, pois vc paga uma mensalidade para empresas que hospedam. -->
+
+    <h1>Aprendendo a colocar videos externos na pagina</h1>
+  <iframe width="500" height="315" src="https://www.youtube.com/embed/bmxlVyWdBY0?si=q0mOiWh3UaeqTCvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!-- aparentemente so funciona abrindo o arquivo index com a extensão "LIVE SERVER" -->
+
+    
+</body>
+</html>
