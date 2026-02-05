@@ -1,0 +1,15 @@
+@charset "UTF8";
+
+body{
+    background-color: rgb(201, 190, 160);
+    font-family: cursive;
+    font-size:13px ;
+}
+
+h1{
+    color: rgb(112, 76, 7);
+}
+
+h2{
+    color: rgb(114, 99, 77);
+}
