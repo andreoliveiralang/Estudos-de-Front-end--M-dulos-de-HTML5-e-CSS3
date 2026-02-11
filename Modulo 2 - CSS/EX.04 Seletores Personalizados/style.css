@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body{
+background-color: rgb(114, 109, 97);
+background-attachment: fixed;
+}
+
+h1{ font: normal 400 50px MedievalSharp;
+    text-align: center;
+    text-decoration: underline;
+    
+
+}
+h2#curta{
+    color: rgb(146, 13, 13);
+    font: normal 400 20px MedievalSharp;
+}
+h2#mágicas{
+   color: rgb(99, 13, 179);
+   font: normal 400 20px MedievalSharp;
+}
+h2#longa{
+    color: rgb(201, 197, 8);
+    font: normal 400 20px MedievalSharp;
+}
+ul{
+    font: normal 400 20px MedievalSharp;
+}
+
+/* aprendendo a colocar cada h1 do estilo que voce quiser */

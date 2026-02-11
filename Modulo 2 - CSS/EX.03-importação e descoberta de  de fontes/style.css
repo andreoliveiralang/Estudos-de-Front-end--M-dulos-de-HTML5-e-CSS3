@@ -1,0 +1,20 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: Nordic Runes;
+    src: url(fontes/Runasvikingas-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+h1{
+    font: normal 400 1.3em "Nordic Runes"
+}
+body{ 
+     font: normal 400 50px "Nordic Runes", cursive;
+}

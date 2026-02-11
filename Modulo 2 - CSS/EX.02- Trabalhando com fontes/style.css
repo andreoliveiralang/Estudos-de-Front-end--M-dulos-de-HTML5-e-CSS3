@@ -1,0 +1,15 @@
+@charset "utf8";
+body{
+    font: normal 16px Arial,Verdana,Serif;
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-indent: 30px;  /* usado para dar aquele espacinho no parágrafo  */
+    text-align: justify;
+}
