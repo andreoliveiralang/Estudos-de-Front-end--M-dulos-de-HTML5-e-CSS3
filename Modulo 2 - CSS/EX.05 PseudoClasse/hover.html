@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            font-family: cursive;
+            font-size: 20px;
+        }
+        div:hover {
+            color: red;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: green;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 45px;
+        }
+        p{
+            font-size: 35px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>&#x2b07 Coloque o mouse sobre o texto abaixo. &#x2b07;</p>
+    <div>PASSE O MOUSE AQUI!
+        <p>Que obediente!</p>
+    </div>
+
+    
+</body>
+</html>

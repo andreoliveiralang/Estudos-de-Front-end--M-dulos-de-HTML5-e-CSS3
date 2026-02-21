@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            font-size: 50px;
+        }
+        li{
+            font-size: 30px;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{     /* PSEUDOCLASSE */
+            color: rgb(148, 29, 148);
+        }
+        a:hover{       /* PSEUDOCLASSE */
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{      /* PSEUDOCLASSE */
+            color: red;
+        }
+        .especial{
+            background-color: rgb(155, 174, 236);
+        }
+
+        .especial::after{
+            content: '🔗';
+        }
+        .especial::before{
+            content: '🔗'
+        }
+
+        /* SELETORES PERSONALIZADOS
+           #  =  d
+           .  =  class
+           :  =  pseudo class
+           :: =  pseudo element
+           >  =  hildren
+        */
+
+        /* 
+        Os pseudo elementos também podem ser modificados com class */
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li> 
+            <a href="https://github.com/andreoliveiralang" rel="noopener noreferrer" class="especial">Meu GitHub</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/andre.llang/" rel="noopener noreferrer" class="especial">Meu Instagran</a>
+        </li>
+        
+    </ul>
+</body>
+</html>
