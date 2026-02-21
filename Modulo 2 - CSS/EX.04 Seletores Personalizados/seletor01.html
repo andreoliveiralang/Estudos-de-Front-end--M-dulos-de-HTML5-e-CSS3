@@ -10,7 +10,7 @@
     <h1>
         LOJA DE ARMAS CENTAURO CAÍDO
     </h1>
-    <h2 id="curta">
+    <h2 class="first">
         Armas de Curta Distancia
     </h2>
     <ul type="circle">
@@ -21,7 +21,7 @@
         <li>Nunchaku</li>
         <li>Katana</li>
     </ul>
-    <h2 id="longa">
+    <h2 class="second">
         Armas Longa Distancia
     </h2>
     <ul type="circle">
@@ -31,13 +31,47 @@
         <li>Estilingue</li>
         <li>Mosquete</li>
     </ul>
-    <h2 id="mágicas">Armas Mágicas</h2>
+    <h2 id="magicas">Armas Mágicas</h2>
     <ul type="circle">
         <li>Varinha</li>
         <li>Cajado</li>
         <li>Cétro</li>
         <li>Tômo Místico </li>
     </ul>
-      
+    <h1>LOJA DE POÇÕES CENTAURO CAÍDO</h1>
+    <h2 class="first">Poções de cura</h2>
+    <ul>
+        <li>lua vermelha</li>
+        <li>brisa do inverno</li>
+        <li>Sangue pútrido</li>
+        <li>Fenix</li>
+    </ul>
+    <h2 class="second">Poções de mana</h2>
+    <ul>
+        <li>Vigor Instantâneo</li>
+        <li>Zip-zot</li>
+        <li>Incansável</li>
+    </ul>
+    <h2 id="magicas">Veneno</h2>
+    <ul>
+        <li>Peste fúnebre</li>
+        <li>Lagrima de litch</li>
+        <li>Gargantus</li>
+        <li>StonesRiinus</li>
+    </ul>
+
+
+
+    <!-- nao podemos usar a mesma ID para títulos diferentes. apesar de isso funcionar, ficar com o mesmo padrão de que queremos , não é o correto de se usar. --> 
+    
+    <!-- exemplo, se queremos que uma personalização seja igual a outra, nao definimos então "ID" definimos então a chamada "CLASS", ID é único, CLASS pode ter vários. -->
+    
+    <!-- outra coisa, não podemos colocar nome de CLASSE ou ID por nome de cores, pois futuramente podemos querer trocar e não faria sentindo que a classe "verde" fosse azul.
+    como html é semântica, dizemos por qual motivo aquele determinado titulo ou subtitulo é de tal cor, exemplo: Básico= cor verde, Intermediário= cor amarela, Avançado= cor vermelha. -->
+
+    <!-- há regras de personalização de seletores, tem uma hierarquia, onde o id sobrepõe o h1 básico e também o class. -->
+    
+    <!-- Em HTML é ID    - em CSS é #
+         Em HTML é CLASS - em CSS é . -->
 </body>
 </html>

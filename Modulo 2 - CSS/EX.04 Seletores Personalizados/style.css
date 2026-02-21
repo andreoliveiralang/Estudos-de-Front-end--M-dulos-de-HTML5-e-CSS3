@@ -13,20 +13,18 @@ h1{ font: normal 400 50px MedievalSharp;
     
 
 }
-h2#curta{
+.first{
     color: rgb(146, 13, 13);
     font: normal 400 20px MedievalSharp;
 }
-h2#mágicas{
-   color: rgb(99, 13, 179);
+.second{
+   color: rgb(255, 223, 42);
    font: normal 400 20px MedievalSharp;
 }
-h2#longa{
-    color: rgb(201, 197, 8);
-    font: normal 400 20px MedievalSharp;
-}
-ul{
-    font: normal 400 20px MedievalSharp;
-}
+h2#magicas{
+   color: rgb(93, 19, 136);
+   font: normal 400 20px MedievalSharp;}
 
 /* aprendendo a colocar cada h1 do estilo que voce quiser */
+
+/* aqui podemos ver que eu fiz .first e . second no modo class, e o ultimo para que podemos ver que da pra ser feito individualmente com ID */
