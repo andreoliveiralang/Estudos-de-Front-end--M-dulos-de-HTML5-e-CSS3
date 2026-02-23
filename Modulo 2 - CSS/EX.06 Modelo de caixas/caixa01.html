@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo De Caixas</title>
+    <style>
+        h1{ /* box-level = ocupa espaços do lado. */
+            text-align: center;
+            background-color: gray;
+            height:90px;
+            width: 300px;
+
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+
+            /* "border:2px solid black;" -> esta linha substitui as tês de cima, simplifica! */
+
+            
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            
+            /* "padding: 10px 10px 10px 10px;" -> esta linha substitui as tês de cima, simplifica!. outro detalhe é que poderiamos colocar só "padding: 10" que daria certo também, faria todos os lados ficarem com 10px. */
+            
+            margin-top:6px;
+            margin-right: 12px;                 /* "margin:auto" = serve para centralizar a margem */
+            margin-bottom: 10px;                /* ajustes que parece bem importante futuramente  */
+            margin-left: 9px; 
+            
+            /* "margin:6px 12px 10px 9px" -> esta linha substitui as tês de cima, simplifica! */
+            
+            
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: orange;
+            /* "outline: 5px dashed orange" -> esta linha substitui as tês de cima, simplifica! */
+        }
+
+        a{ /* inline level = ocupa a mesma linha, somente, não afetando os lados. */
+            text-decoration: none;
+            color: rgb(139, 14, 14);
+            border: 5px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        /* aprendemos como u8sar o devtols do navegador, interessante para testes de tamanhos dos elementos. */
+
+
+        /* DISPLAY:INLINE OU DISPLAY:BLOCK = muda a caracteristica da tag, podemos transformar tags que sao inline em block e vice versa */
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>
+        Páragrafos também são exemplos de box-level,mas os <a href="#">links são exemplos de caixas inline-level</a> vamos ver como tudo isso funciona
+    </p>
+    
+</body>
+</html>
