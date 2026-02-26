@@ -5,23 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Tags</title>
     <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
         body{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            background-color: gray;
+            background-color: rgb(68, 67, 67);
+        }
+        h1{
+            margin-top:10px;
+            padding-bottom: px;
+        
         }
         header{
             background-color: rgb(255, 255, 255);
-            padding: 1px;
+            padding: 30px;
             margin-top: 10px;
+            padding-top: 10px;
             text-align: center;
-           
+            border-radius: 15px;
+        }
+        nav{
+            background-color: lightgray;
+            padding: px;
+            text-decoration: none;
+            box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.486);
+            border-radius: 27px;
+        }
+        nav > a{                                /* "a" indica link. */
+            text-decoration: none;
+            color: rgb(221, 43, 43);
+            font-family: "Sixtyfour Convergence", sans-serif;
+            font-size: 20px;
+        }
+        main{
+           background-color: white;
+           border-radius: 20px;    /* Border Radius tbm podem ser modificados com "%"  */
         }
         footer{
             background-color: black;
             color: aliceblue;
             text-align: center;
             margin-top: 20px;
-            margin: auto;
+            padding: 5px;
+        }
+        footer > p{
+            margin: 3px;
+
         }
         section#noticias{
             background-color: white;
@@ -30,15 +60,19 @@
             margin-top: 30px;
             padding-left: 6px;
             padding-right: 6px;
+            border-radius: 15px;
 
         }
         aside{
             background-color: rgb(187, 187, 187);
             text-align: center;
+            box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.637);
         }
         article{
             background-color: lightgray;
             text-align: center;
+            box-shadow: 1px 6px 4px 0px rgba(0, 0, 0, 0.5);
+            border-radius: 27px;
         }
         
     </style>
@@ -47,10 +81,8 @@
    <header>
         <h1>MEU SITE</h1>
         <nav>
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
+            <a href="#"> L I N K </a>
+           
     </nav>
    </header>
    <main> 
@@ -68,7 +100,7 @@
 
    </main>
    <footer>
-    <p>Desenvolvido pelo Curso em video</p>
+    <p>Desenvolvido Por André Lang</p>
    </footer>
 </body>
 </html>
