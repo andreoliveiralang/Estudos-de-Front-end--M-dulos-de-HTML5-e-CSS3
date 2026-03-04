@@ -1,0 +1,16 @@
+@charset "UTF8";
+@font-face{
+    font-family:runes;
+    src: url(Midias/fontes/Norse.woff2);
+}
+@font-face{
+    font-family: Nordic Runes;
+    src: url(Midias/fontes/Runasvikingas-Regular.woff2);
+}
+h1{
+    font-family:runes;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}    
